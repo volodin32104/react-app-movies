@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/volodin32104/react-app-movies/precache-manifest.6704b8d6c1dfef70266f1540548eff9e.js"
+  "/react-app-movies/precache-manifest.cb07fb1c074e7acca6d29247a33afa6f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/volodin32104/react-app-movies/index.html", {
+workbox.routing.registerNavigationRoute("/react-app-movies/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
